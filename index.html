@@ -14,8 +14,9 @@
         background-color: #262626;
       }
       p {
-        font-size: 8px;
-        line-height: 8px;
+        font-size: 9px;
+        margin: -22px;
+        line-height: 7px;
         background: url(salma1.jpeg);
         background-repeat: no-repeat;
         background-size: cover;
@@ -26,7 +27,7 @@
     </style>
   </head>
   <body>
-    <!-- 9adiitha bkol 7ob :) -->
+    <!-- 0adiitha bkol 7ob :) -->
     <p>
       The night we met I knew I needed you so And if I had the chance I'd never
       let you go So won't you say you love me I'll make you so proud of me We'll
@@ -472,7 +473,60 @@
       my, be my baby Be my baby now, my one and only baby Wha oh oh oh Be my, be
       my baby, be my little baby My one and only baby, oh oh Be my, be my baby,
       oh My one and only baby, wha oh oh oh oh Be my, be my baby, oh My one and
-      only baby, oh Be my, be my baby, oh Be my baby now
+      only baby, oh Be my, be my baby, oh Be my baby now The night we met I knew
+      I needed you so And if I had the chance I'd never let you go So won't you
+      say you love me I'll make you so proud of me We'll make 'em turn their
+      heads every place we go So won't you, please, be my, be my baby Be my
+      little baby, my one and only baby Say you'll be my darlin', be my, be my
+      baby Be my baby now, my one and only baby Wha oh oh oh I'll make you
+      happy, baby, just wait and see For every kiss you give me I'll give you
+      three Oh, since the day I saw you I have been waiting for you You know I
+      will adore you 'til eternity So won't you, please, be my, be my baby Be my
+      little baby, my one and only baby Say you'll be my darlin', be my, be my
+      baby Be my baby now, my one and only baby Wha oh oh oh oh So come on and,
+      please, be my, be my baby Be my little baby, my one and only baby Say
+      you'll be my darlin', be my, be my baby Be my baby now, my one and only
+      baby Wha oh oh oh Be my, be my baby, be my little baby My one and only
+      baby, oh oh Be my, be my baby, oh My one and only baby, wha oh oh oh oh Be
+      my, be my baby, oh My one and only baby, oh Be my, be my baby, oh Be my
+      baby now
     </p>
-  </body>
+  <!-- Code injected by live-server -->
+<script type="text/javascript">
+	// <![CDATA[  <-- For SVG support
+	if ('WebSocket' in window) {
+		(function () {
+			function refreshCSS() {
+				var sheets = [].slice.call(document.getElementsByTagName("link"));
+				var head = document.getElementsByTagName("head")[0];
+				for (var i = 0; i < sheets.length; ++i) {
+					var elem = sheets[i];
+					var parent = elem.parentElement || head;
+					parent.removeChild(elem);
+					var rel = elem.rel;
+					if (elem.href && typeof rel != "string" || rel.length == 0 || rel.toLowerCase() == "stylesheet") {
+						var url = elem.href.replace(/(&|\?)_cacheOverride=\d+/, '');
+						elem.href = url + (url.indexOf('?') >= 0 ? '&' : '?') + '_cacheOverride=' + (new Date().valueOf());
+					}
+					parent.appendChild(elem);
+				}
+			}
+			var protocol = window.location.protocol === 'http:' ? 'ws://' : 'wss://';
+			var address = protocol + window.location.host + window.location.pathname + '/ws';
+			var socket = new WebSocket(address);
+			socket.onmessage = function (msg) {
+				if (msg.data == 'reload') window.location.reload();
+				else if (msg.data == 'refreshcss') refreshCSS();
+			};
+			if (sessionStorage && !sessionStorage.getItem('IsThisFirstTime_Log_From_LiveServer')) {
+				console.log('Live reload enabled.');
+				sessionStorage.setItem('IsThisFirstTime_Log_From_LiveServer', true);
+			}
+		})();
+	}
+	else {
+		console.error('Upgrade your browser. This Browser is NOT supported WebSocket for Live-Reloading.');
+	}
+	// ]]>
+</script></body>
 </html>
